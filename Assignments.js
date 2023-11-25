@@ -4,14 +4,19 @@ console.log('....Assignment 1.....')
 
 //Empty Array
  let fruits=[];
+console.log(fruits)
+
 //add Fruits  to the array
 fruits.push('apple','banana','orange')
+console.log(fruits)
 
 //Remove first fruit
 fruits.splice(0,1)
+console.log(fruits)
 
 //add fruit at the end off array
 fruits.push('grapes');
+console.log(fruits)
 
 //update second fruit in the array
 fruits[1]='pear';
@@ -22,17 +27,21 @@ console.log(fruits)
 console.log('....Assignment 2.....')
 //Empty Object
 let person={};
+console.log(person)
 //add properties in object
  person={
     name : "john",
     age: 30,
     city : "New York"
+  console.log(person)
 }
 //Remove age property of object
 delete person.age;
+console.log(person)
 
 //add a new property of object
 person.job = 'Engineer'
+console.log(person)
 
 //update property of object
 person.city='San Francisco'
